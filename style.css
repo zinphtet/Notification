@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ba8fe2;
+	position: relative;
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none;
+}
+.btn {
+	border: 1px solid rgb(26, 63, 230);
+	padding: 5px;
+	color: white;
+	background-color: #4649e4;
+}
+.noti_container {
+	position: absolute;
+	bottom: 3%;
+	right: 3%;
+	/* border: 1px solid red; */
+}
+.noti {
+	width: 150px;
+	height: 50px;
+	color: white;
+	background-color: #5ff767;
+	margin: 15px 0px;
+	text-align: center;
+	line-height: 50px;
+}
